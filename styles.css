@@ -1,0 +1,21 @@
+*{box-sizing:border-box;font-family:Inter,Arial,Helvetica,sans-serif}
+body{background:#f7f7fb;color:#111;margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:20px}
+.card{width:100%;max-width:720px;background:white;border-radius:12px;box-shadow:0 8px 30px rgba(17,24,39,0.08);padding:24px}
+.product{display:flex;gap:18px;align-items:center}
+.product img{width:320px;height:200px;object-fit:cover;border-radius:8px;border:1px solid #eee}
+.meta p{margin:6px 0}
+.tagline{color:#666;margin-top:4px;margin-bottom:12px}
+.actions{margin-top:18px}
+.btn{padding:10px 14px;border-radius:8px;border:1px solid #d0d5dd;background:#fff;cursor:pointer}
+.btn.primary{background:#0b74ff;color:white;border:none}
+.modal{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;background:rgba(2,6,23,0.4);padding:20px}
+.hidden{display:none}
+.modal-content{background:white;padding:18px;border-radius:10px;max-width:560px;width:100%}
+.modal-content h2{margin-top:0}
+label{display:block;margin:10px 0;font-size:14px}
+input[type="text"],input[type="tel"],textarea,select{width:100%;padding:8px;margin-top:6px;border-radius:6px;border:1px solid #e6e9ef}
+textarea{min-height:80px;resize:vertical}
+.row{display:flex;gap:8px;justify-content:flex-end;margin-top:12px}
+.note{font-size:13px;color:#60666e;margin-top:8px}
+.help{margin-top:14px;color:#6b7280;font-size:13px}
+code{background:#f3f4f6;padding:2px 6px;border-radius:4px;font-size:13px}
